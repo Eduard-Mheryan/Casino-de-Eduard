@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <title>Casino-Login</title>
+   <link rel="stylesheet" href="CSS/Login.css">
+</head>
+
+<body>
+
+    <div class="container" id="container">
+        <div class="form-container sign-up">
+            <form>
+                <h1>Benutzerkonto erstellen</h1>
+                <div class="social-icons">
+                    <a href="#" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-github"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+                <span>oder verwenden Sie Ihre E-Mail zur Registrierung</span>
+                <input type="text" placeholder="Name">
+                <input type="email" placeholder="Email">
+                <input type="password" placeholder="Password">
+                <button>MELDEN SIE SICH AN</button>
+            </form>
+        </div>
+        <div class="form-container sign-in">
+            <form>
+                <h1>Anmelden</h1>
+                <div class="social-icons">
+                    <a href="#" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-github"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+                <span>oder verwenden Sie Ihr E-Mail-Passwort</span>
+                <input type="email" placeholder="Email">
+                <input type="password" placeholder="Password">
+                <a href="#">Passwort vergessen?</a>
+                <button>Anmelden</button>
+            </form>
+        </div>
+        <div class="toggle-container">
+            <div class="toggle">
+                <div class="toggle-panel toggle-left">
+                    <h1>Willkommen zurück!</h1>
+                    <p>Geben Sie Ihre persönlichen Daten ein, um alle Funktionen der Website nutzen zu können</p>
+                    <button class="hidden" id="login">ANMELDEN</button>
+                </div>
+                <div class="toggle-panel toggle-right">
+                    <h1>Hallo Freund!</h1>
+                    <p>Registrieren Sie sich mit Ihren persönlichen Daten, um alle Funktionen der Website nutzen zu
+                        können</p>
+                    <button class="hidden" id="register">MELDEN SIE SICH AN</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="JS/login.js"></script>
+</body>
+
+</html>
